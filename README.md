@@ -14,8 +14,8 @@ Dependencies:
 	<pre><addr>pip install boto</pre></addr>
 2. Install paramiko by running: 
 	<pre><addr>pip install paramiko</pre></addr>
-3. Ensure that you have an AWS .credentials file by running: 
-	<pre><addr>vi ~/.aws/credentials</pre></addr>
+3. Ensure that you have a boto config file by running: 
+	<pre><addr>vi ~/.boto</pre></addr>
 	Then type in the following and add your keys (remove parenthesis):
 	<pre><code>
 	[Credentials]
